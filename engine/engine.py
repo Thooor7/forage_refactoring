@@ -1,0 +1,5 @@
+from Serviceable import Serviceable
+
+class Engine(Serviceable):
+    def needs_service(self) -> bool:
+        pass
